@@ -2,7 +2,7 @@ name: Publier les installateurs
 
 # Rassemble la derniere version de chaque plugin MJ7, fabrique les installateurs Windows et Mac,
 # et les publie ici. Se lance tout seul toutes les 6 heures (seulement si un plugin a change),
-# ou a la main : onglet Actions > Publier les installateurs > Run workflow.
+# ou a la main : onglet Actions > Publier les installateurs > Run workflow. Depots des plugins : prives.
 on:
   workflow_dispatch:
   push:
