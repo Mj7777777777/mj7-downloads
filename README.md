@@ -3,6 +3,13 @@
 Plugins audio pour la voix et le mix, au format VST3 (Windows et Mac) et Audio Unit (Mac).
 Pour FL Studio, Ableton Live, Logic Pro, Studio One, Reaper…
 
+## Prix
+
+> **🔥 Offre de lancement : la Suite complète (les 7 plugins) à 50 000 FCFA** au lieu de 70 000 FCFA, jusqu'au 14 novembre 2026.
+
+Paiement : **+225 07 58 61 60 73** (Orange Money ou Wave). Envoyez votre nom après le paiement : vous recevez votre clé de licence.
+Essayez d'abord gratuitement : chaque plugin fonctionne 14 jours sans aucune limite.
+
 ## Télécharger
 
 **Toute la suite (les 7 plugins) :** [Windows](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Suite-Windows-Installateur.exe) · [Mac](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Suite-Mac-Installateur.pkg)
