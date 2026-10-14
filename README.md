@@ -41,4 +41,4 @@ Pour activer : ouvrez le plugin, cliquez sur la petite ligne dorée sous son nom
 collez votre clé et cliquez sur **COLLER ET ACTIVER**. Une clé « Suite » débloque tous les plugins MJ7 d'un coup,
 sans connexion internet.
 
-Pour acheter une licence, contactez MJ7.
+**Acheter une licence :** +225 07 58 61 60 73 (Orange Money ou Wave). Envoyez votre nom après le paiement, vous recevez votre clé.
