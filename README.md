@@ -7,6 +7,8 @@ Pour FL Studio, Ableton Live, Logic Pro, Studio One, Reaper…
 
 > **🔥 Offre de lancement : la Suite complète (les 7 plugins) à 50 000 FCFA** au lieu de 70 000 FCFA, jusqu'au 14 novembre 2026.
 
+**📖 En option : le guide MJ7 Vocal Chain** (PDF de 30 pages : chaque réglage expliqué, recettes Afro, Amapiano, Trap, Pop, House) : **+7 000 FCFA**.
+
 Paiement : **+225 07 58 61 60 73** (Orange Money ou Wave). Envoyez votre nom après le paiement : vous recevez votre clé de licence.
 Essayez d'abord gratuitement : chaque plugin fonctionne 14 jours sans aucune limite.
 
