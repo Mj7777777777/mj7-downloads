@@ -1,0 +1,5 @@
+#!/bin/sh
+# Apres l'installation : retire le blocage de macOS et fait relire les plugins.
+xattr -cr /Library/Audio/Plug-Ins/VST3/MJ7*.vst3 /Library/Audio/Plug-Ins/Components/MJ7*.component 2>/dev/null
+killall -9 AudioComponentRegistrar 2>/dev/null
+exit 0
