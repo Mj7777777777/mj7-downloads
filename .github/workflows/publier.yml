@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 env:
-  # Jeton pour lire les depots prives des plugins (secret MJ7_TOKEN). Tant que les depots sont publics, inutile.
+  # Jeton pour lire les depots prives des plugins (secret MJ7_TOKEN, lecture seule sur les 7 depots).
   GH_TOKEN: ${{ secrets.MJ7_TOKEN || github.token }}
   PLUGINS: mj7-vocal-chain mj7-master-chain mj7-voice-over mj7-backs-adlibs mj7-tune mj7-live-monitor mj7-vocal-booth
 
