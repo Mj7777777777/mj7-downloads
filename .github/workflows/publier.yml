@@ -68,7 +68,7 @@ jobs:
     name: Installateurs Mac
     needs: rassembler
     if: needs.rassembler.outputs.changed == 'true'
-    runs-on: macos-latest
+    runs-on: macos-15-intel
     steps:
       - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
