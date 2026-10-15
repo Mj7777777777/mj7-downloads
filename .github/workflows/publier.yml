@@ -31,7 +31,13 @@ jobs:
           mkdir -p zips
           : > versions.txt
           for r in $PLUGINS; do
-            tag=$(gh release view --repo "Mj7777777777/$r" --json tagName -q .tagName)
+            # derniere version qui contient bien Windows ET Mac (une compilation Mac peut manquer si GitHub n'a pas de machine libre)
+            tag=""
+            for t in $(gh release list --repo "Mj7777777777/$r" --limit 15 --json tagName -q '.[].tagName'); do
+              names=$(gh release view "$t" --repo "Mj7777777777/$r" --json assets -q '.assets[].name')
+              if echo "$names" | grep -q -- '-macOS.zip$' && echo "$names" | grep -q -- '-Windows.zip$'; then tag="$t"; break; fi
+            done
+            [ -n "$tag" ] || { echo "Aucune version complete pour $r"; exit 1; }
             gh release download "$tag" --repo "Mj7777777777/$r" -p '*.zip' -D zips --clobber
             base=$(gh release view "$tag" --repo "Mj7777777777/$r" --json assets -q '.assets[].name' | grep -- '-macOS.zip$' | sed 's/-macOS.zip$//')
             echo "$base ${tag#v}" >> versions.txt
