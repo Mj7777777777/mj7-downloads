@@ -1,0 +1,32 @@
+name: Fin de l'offre de lancement
+
+# Le 1er novembre 2026, retire l'offre de lancement de la page :
+# Vocal Pack a 100 000 FCFA, Suite complete a 150 000 FCFA.
+on:
+  schedule:
+    - cron: '7 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Mettre la page au prix normal
+        run: |
+          if [ "$(date -u +%Y%m%d)" -lt 20261101 ] || ! grep -q "Offre de lancement" README.md; then echo "Rien a faire."; exit 0; fi
+          python3 - <<'PY'
+          import re
+          s = open("README.md", encoding="utf-8").read()
+          s = re.sub(r"> \*\*🔥 Offre de lancement.*?\n\n", "", s)
+          s = s.replace("**🎤 MJ7 VOCAL PACK : 70 000 FCFA** ~~100 000 FCFA~~", "**🎤 MJ7 VOCAL PACK : 100 000 FCFA**")
+          s = s.replace("**🎛️ MJ7 SUITE COMPLÈTE : 130 000 FCFA** ~~150 000 FCFA~~", "**🎛️ MJ7 SUITE COMPLÈTE : 150 000 FCFA**")
+          open("README.md", "w", encoding="utf-8").write(s)
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Fin de l'offre de lancement : Vocal Pack 100 000, Suite 150 000 FCFA"
+          git push
