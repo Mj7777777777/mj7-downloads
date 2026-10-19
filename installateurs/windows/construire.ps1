@@ -1,4 +1,4 @@
-# Construit un installateur .exe par plugin (Inno Setup), plus un installateur pour toute la suite.
+# Construit deux installateurs (Inno Setup) : le Vocal Pack (5 plugins) et la Suite complete (les 7).
 # Entree : zips\*-Windows.zip et versions.txt ("MJ7-Tune 1.0.3"). Sortie : out\*.exe
 $ErrorActionPreference = 'Stop'
 
@@ -18,6 +18,7 @@ $guids = @{
     'MJ7-Live-Monitor' = '9C3996E0-B775-4FE1-B577-22499CB3CF3F'
     'MJ7-Vocal-Booth'  = 'BBCE29B7-A5F3-4905-8DF1-4755FEE7DA8D'
     'MJ7-Suite'        = '1A439DDC-00E9-4B72-B6F0-4EEFC0A5E217'
+    'MJ7-Vocal-Pack'   = 'AC2CCED1-D2AA-4666-96CF-2DA1550B7C64'
 }
 
 $versions = @{}
@@ -52,7 +53,7 @@ function New-Installer([string]$outName, [string]$appName, [string]$guid, [strin
         '',
         '[Messages]',
         "fr.WelcomeLabel2=Ce programme va installer $appName (VST3) sur votre ordinateur.%n%nFermez FL Studio, Ableton ou votre logiciel de musique avant de continuer.",
-        'fr.FinishedLabel=Installation terminée.%n%nDans FL Studio : Options > Manage plugins > Find installed plugins.%nDans Ableton : Préférences > Plug-Ins > Rescan.%n%nEssai complet de 14 jours, puis activation avec votre clé de licence (petite ligne dorée sous le nom du plugin).',
+        'fr.FinishedLabel=Installation terminée.%n%nDans FL Studio : Options > Manage plugins > Find installed plugins.%nDans Ableton : Préférences > Plug-Ins > Rescan.%n%nEssai complet de 7 jours, puis activation avec votre clé de licence (petite ligne dorée sous le nom du plugin).',
         '',
         '[InstallDelete]'
     )
@@ -68,17 +69,18 @@ function New-Installer([string]$outName, [string]$appName, [string]$guid, [strin
     if ($LASTEXITCODE -ne 0) { throw "Echec Inno Setup pour $outName" }
 }
 
-$all = @()
+$all = @(); $pack = @()
+$packNames = @('MJ7-Vocal-Chain', 'MJ7-Backs-Adlibs', 'MJ7-Vocal-Booth', 'MJ7-Tune', 'MJ7-Live-Monitor')
 foreach ($z in Get-ChildItem zips\*-Windows.zip) {
     $base = $z.Name -replace '-Windows\.zip$', ''
     $dir = Join-Path (Resolve-Path stage).Path $base
     Expand-Archive -Path $z.FullName -DestinationPath $dir -Force
     $vst = Get-ChildItem $dir -Directory -Filter '*.vst3' | Select-Object -First 1
     if ($null -eq $vst) { throw "Pas de .vst3 dans $($z.Name)" }
-    $app = $vst.Name -replace '\.vst3$', ''
-    $ver = if ($versions.ContainsKey($base)) { $versions[$base] } else { '1.0.0' }
-    New-Installer "$base-Windows-Installateur" $app $guids[$base] $ver @($vst)
     $all += $vst
+    if ($packNames -contains $base) { $pack += $vst }
 }
-New-Installer 'MJ7-Suite-Windows-Installateur' 'MJ7 Suite (tous les plugins)' $guids['MJ7-Suite'] $env:SUITE_VERSION $all
+if ($pack.Count -ne 5) { throw "Vocal Pack incomplet" }
+New-Installer 'MJ7-Vocal-Pack-Windows-Installateur' 'MJ7 Vocal Pack' $guids['MJ7-Vocal-Pack'] $env:SUITE_VERSION $pack
+New-Installer 'MJ7-Suite-Windows-Installateur' 'MJ7 Suite complete (les 7 plugins)' $guids['MJ7-Suite'] $env:SUITE_VERSION $all
 Get-ChildItem out | Format-Table Name, Length

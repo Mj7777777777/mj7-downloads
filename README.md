@@ -5,28 +5,34 @@ Pour FL Studio, Ableton Live, Logic Pro, Studio One, Reaper…
 
 ## Prix
 
-> **🔥 Offre de lancement : la Suite complète (les 7 plugins) à 50 000 FCFA** au lieu de 70 000 FCFA, jusqu'au 14 novembre 2026.
+> **🔥 Offre de lancement**
 
-**Un plugin seul : 17 000 FCFA** (au choix parmi les 7).
+**🎤 MJ7 VOCAL PACK : 70 000 FCFA** ~~100 000 FCFA~~
+MJ7 Vocal Chain · MJ7 Backs & Ad-libs · MJ7 Vocal Booth, **+ en bonus** MJ7 Tune et MJ7 Live Monitor (5 plugins).
+
+**🎛️ MJ7 SUITE COMPLÈTE : 130 000 FCFA** ~~150 000 FCFA~~
+Tout le Vocal Pack **+** MJ7 Master Chain et MJ7 Voice Over (les 7 plugins).
 
 **📖 En option : le guide MJ7 Vocal Chain** (PDF de 30 pages : chaque réglage expliqué, recettes Afro, Amapiano, Trap, Pop, House) : **+7 000 FCFA**.
 
 Paiement : **+225 07 58 61 60 73** (Orange Money ou Wave). Envoyez votre nom après le paiement : vous recevez votre clé de licence.
-Essayez d'abord gratuitement : chaque plugin fonctionne 14 jours sans aucune limite.
+Essayez d'abord gratuitement : **7 jours d'essai complet**.
 
 ## Télécharger
 
-**Toute la suite (les 7 plugins) :** [Windows](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Suite-Windows-Installateur.exe) · [Mac](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Suite-Mac-Installateur.pkg)
-
-| Plugin | Windows | Mac |
+| Pack | Windows | Mac |
 |---|---|---|
-| **MJ7 Vocal Chain** – chaîne vocale complète pour le chant (rap, trap, afro, amapiano, pop, house) | [Windows](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Vocal-Chain-Windows-Installateur.exe) | [Mac](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Vocal-Chain-Mac-Installateur.pkg) |
-| **MJ7 Vocal Booth** – retire la pièce et le bruit : une voix de chambre qui sonne comme en cabine | [Windows](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Vocal-Booth-Windows-Installateur.exe) | [Mac](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Vocal-Booth-Mac-Installateur.pkg) |
-| **MJ7 Tune** – correction de justesse, du naturel à l'effet robot | [Windows](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Tune-Windows-Installateur.exe) | [Mac](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Tune-Mac-Installateur.pkg) |
-| **MJ7 Backs & Ad-libs** – doubles, chœurs et ad-libs prêts à mixer | [Windows](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Backs-Adlibs-Windows-Installateur.exe) | [Mac](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Backs-Adlibs-Mac-Installateur.pkg) |
-| **MJ7 Live Monitor** – s'écouter pendant l'enregistrement, sans retard | [Windows](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Live-Monitor-Windows-Installateur.exe) | [Mac](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Live-Monitor-Mac-Installateur.pkg) |
-| **MJ7 Voice Over** – voix off, podcast, publicité | [Windows](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Voice-Over-Windows-Installateur.exe) | [Mac](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Voice-Over-Mac-Installateur.pkg) |
-| **MJ7 Master Chain** – mastering : niveau, couleur et largeur | [Windows](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Master-Chain-Windows-Installateur.exe) | [Mac](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Master-Chain-Mac-Installateur.pkg) |
+| **MJ7 Vocal Pack** (5 plugins) | [Windows](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Vocal-Pack-Windows-Installateur.exe) | [Mac](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Vocal-Pack-Mac-Installateur.pkg) |
+| **MJ7 Suite complète** (les 7 plugins) | [Windows](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Suite-Windows-Installateur.exe) | [Mac](https://github.com/Mj7777777777/mj7-downloads/releases/latest/download/MJ7-Suite-Mac-Installateur.pkg) |
+
+**Ce que fait chaque plugin**
+- **MJ7 Vocal Chain** – chaîne vocale complète pour le chant (rap, trap, afro, amapiano, pop, house)
+- **MJ7 Backs & Ad-libs** – doubles, chœurs et ad-libs prêts à mixer
+- **MJ7 Vocal Booth** – retire la pièce et le bruit : une voix de chambre qui sonne comme en cabine
+- **MJ7 Tune** *(bonus du Vocal Pack)* – correction de justesse, du naturel à l'effet robot
+- **MJ7 Live Monitor** *(bonus du Vocal Pack)* – s'écouter pendant l'enregistrement, sans retard
+- **MJ7 Master Chain** *(Suite complète)* – mastering : niveau, couleur et largeur
+- **MJ7 Voice Over** *(Suite complète)* – voix off, podcast, publicité
 
 ## Installer
 
@@ -45,11 +51,11 @@ Essayez d'abord gratuitement : chaque plugin fonctionne 14 jours sans aucune lim
 
 ## Licence
 
-Chaque plugin fonctionne **14 jours sans aucune limite**. Ensuite, le son est coupé 3 secondes toutes les 45 secondes
-jusqu'à l'activation d'une clé de licence.
+Chaque plugin fonctionne **7 jours sans aucune limite**. Ensuite, **il ne produit plus aucun son**
+tant qu'une clé de licence n'est pas activée.
 
 Pour activer : ouvrez le plugin, cliquez sur la petite ligne dorée sous son nom (« ESSAI … ACTIVER »),
-collez votre clé et cliquez sur **COLLER ET ACTIVER**. Une clé « Suite » débloque tous les plugins MJ7 d'un coup,
+collez votre clé et cliquez sur **COLLER ET ACTIVER**. Une seule clé débloque tous les plugins de votre pack d'un coup,
 sans connexion internet.
 
 **Acheter une licence :** +225 07 58 61 60 73 (Orange Money ou Wave). Envoyez votre nom après le paiement, vous recevez votre clé.
