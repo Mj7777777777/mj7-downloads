@@ -1,0 +1,35 @@
+name: Publier le site
+
+# Met en ligne le site MJ7 (dossier site/) avec GitHub Pages, en HTTPS.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['site/**', '.github/workflows/site.yml']
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verifier qu'aucun fichier secret n'est publie
+        run: |
+          if grep -rIl -i -E "SEED_HEX|seed\.hex|Generateur-de-cles|MJ7_TOKEN" site; then echo "Fichier interdit dans site/"; exit 1; fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
