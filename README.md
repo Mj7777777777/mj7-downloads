@@ -56,6 +56,8 @@ tant qu'une clé de licence n'est pas activée.
 
 Pour activer : ouvrez le plugin, cliquez sur la petite ligne dorée sous son nom (« ESSAI … ACTIVER »),
 collez votre clé et cliquez sur **COLLER ET ACTIVER**. Une seule clé débloque tous les plugins de votre pack d'un coup,
-sans connexion internet.
+sans connexion internet. La clé est liée à vos ordinateurs (**2 maximum**).
 
-**Acheter une licence :** +225 07 58 61 60 73 (Orange Money ou Wave). Envoyez votre nom après le paiement, vous recevez votre clé.
+**Acheter une licence :** +225 07 58 61 60 73 (Orange Money ou Wave). Après le paiement, envoyez votre nom et le
+**code de votre ordinateur** (affiché dans la fenêtre d'activation du plugin, ligne « CODE DE CET ORDINATEUR », bouton COPIER) :
+vous recevez votre clé. Pour un 2e ordinateur, envoyez aussi son code.
