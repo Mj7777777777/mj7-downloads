@@ -5,12 +5,10 @@ Pour FL Studio, Ableton Live, Logic Pro, Studio One, Reaper…
 
 ## Prix
 
-> **🔥 Offre de lancement jusqu'au 31 octobre 2026**
-
-**🎤 MJ7 VOCAL PACK : 70 000 FCFA** ~~100 000 FCFA~~
+**🎤 MJ7 VOCAL PACK : 100 000 FCFA**
 MJ7 Vocal Chain · MJ7 Backs & Ad-libs · MJ7 Vocal Booth, **+ en bonus** MJ7 Tune et MJ7 Live Monitor (5 plugins).
 
-**🎛️ MJ7 SUITE COMPLÈTE : 130 000 FCFA** ~~150 000 FCFA~~
+**🎛️ MJ7 SUITE COMPLÈTE : 150 000 FCFA**
 Tout le Vocal Pack **+** MJ7 Master Chain et MJ7 Voice Over (les 7 plugins).
 
 **📖 En option : le guide MJ7 Vocal Chain** (PDF de 30 pages : chaque réglage expliqué, recettes Afro, Amapiano, Trap, Pop, House) : **+7 000 FCFA**.
